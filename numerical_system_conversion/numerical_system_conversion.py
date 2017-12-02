@@ -46,4 +46,5 @@ def from_decimal(number, base):
         number = int(number / base)
     return rest_list[::-1]
 
+# Test
 print(convert(60, 10, 16))
